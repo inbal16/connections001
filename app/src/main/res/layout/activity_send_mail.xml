@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F9FDD6"
+    tools:context=".activitySendMail">
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:hint="Write e-mail address here"/>
+
+    <EditText
+        android:id="@+id/etSubj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:hint="Write subj for e-mail here"/>
+
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:inputType="textMultiLine"
+        android:hint="Write text for e-mail here"/>
+
+    <Button
+        android:id="@+id/bMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:text="Send now"/>
+
+</LinearLayout>
